@@ -4,7 +4,7 @@ def disemvowel(string):
     array = list(string)
     result = filter(lambda ch: ch != 'a' and ch != 'e' and ch != 'i' and ch != 'o' and ch != 'u' and ch != 'A'
                     and ch != 'E' and ch != 'I' and ch != 'O' and ch != 'U', array)
-    return ''.join(map(str, result))
+    return ''.join(result)
 
 class FixedTest(unittest.TestCase):
 
