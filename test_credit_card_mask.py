@@ -6,7 +6,7 @@ def maskify(credit_card):
     if len(credit_card) <= SUFFIX_LENGTH:
       return credit_card
     else:
-      return re.sub(".", "#", credit_card[0:len(credit_card) - SUFFIX_LENGTH]) + credit_card[len(credit_card) - SUFFIX_LENGTH: len(credit_card)]
+      return "#" * (len(credit_card) - SUFFIX_LENGTH) + credit_card[-SUFFIX_LENGTH:]
       
 class FixedTest(unittest.TestCase):
 
