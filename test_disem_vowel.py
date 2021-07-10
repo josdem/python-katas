@@ -9,9 +9,9 @@ Note: for this kata y isn't considered a vowel.
 '''
 
 def disemvowel(string):
+    vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
     array = list(string)
-    result = filter(lambda ch: ch != 'a' and ch != 'e' and ch != 'i' and ch != 'o' and ch != 'u' and ch != 'A'
-                    and ch != 'E' and ch != 'I' and ch != 'O' and ch != 'U', array)
+    result = [ch for ch in array if ch not in vowels]
     return ''.join(result)
 
 class FixedTest(unittest.TestCase):
