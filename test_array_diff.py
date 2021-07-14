@@ -6,11 +6,7 @@ It should remove all values from list a, which are present in list b keeping the
 '''
 
 def array_diff(a, b):
-    result = []
-    for number in a:
-        if not number in b:
-            result.append(number)
-    return result
+    return [n for n in a if n not in b]
 
 class FixedTest(unittest.TestCase):
 
