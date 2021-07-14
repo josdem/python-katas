@@ -6,7 +6,7 @@ Write a function that accepts an array of 10 integers (between 0 and 9), that re
 
 def create_phone_number(array):
     string = ''.join(str(n) for n in array)
-    return f'({string[0:3]}) {string[3:6]}-{string[6:]}'
+    return f'({string[:3]}) {string[3:6]}-{string[6:]}'
 
 class FixedTest(unittest.TestCase):
 
