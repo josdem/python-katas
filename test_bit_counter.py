@@ -7,9 +7,7 @@ Example: The binary representation of 1234 is 10011010010, so the function shoul
 '''
 
 def count_bits(n):
-    numbers = list(bin(n))
-    bits = [n for n in numbers if n == '1']
-    return len(bits)
+    return list(bin(n)).count('1')
 
 
 class FixedTest(unittest.TestCase):
