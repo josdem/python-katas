@@ -6,7 +6,7 @@ There will always be only one integer that appears an odd number of times.
 '''
 
 def find_it(array):
-    return len(array)
+    return list(filter(lambda n: array.count(n) % 2, array))[0]
 
 class FixedTest(unittest.TestCase):
 
