@@ -1,3 +1,5 @@
+import re
+from typing import Pattern
 import unittest
 
 '''
@@ -7,8 +9,10 @@ messages = ["hi", "2.0", "@#$%", "32.0"]
 result = 32.0
 '''
 
+pattern = '-?[0-9]+.?[0-9]+'
+
 def biggest(data):
-    return len(data)
+    return float(max([l for l in data if re.match(pattern, l)]))
 
 class FixedTest(unittest.TestCase):
 
