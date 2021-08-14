@@ -6,7 +6,7 @@ Your task is to create a function that removes all small candles and just keep t
 '''
 
 def counter(candles):
-    return candles
+    return list(filter(lambda it: it == max(candles), candles))
 
 class FixedTest(unittest.TestCase):
 
