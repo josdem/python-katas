@@ -6,7 +6,7 @@ Given: [1,2,3,4,5] and [1,3,5,7,9] then expected output: [1,3,5]
 '''
 
 def find(first, second):
-    return first + second
+    return [n for n in first if n in second]
 
 class FixedTest(unittest.TestCase):
     def test(self):
