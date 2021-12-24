@@ -9,9 +9,15 @@ import unittest
 def countVowels(keyword):
     return len(keyword)
 
+def countConsonants(keyword):
+    return len(keyword)
+   
+
 class FixedTest(unittest.TestCase):
     def test(self):
-        self.assertEqual(2, countVowels("josdem"))
+        keyword = "josdem"
+        self.assertEqual(2, countVowels(keyword))
+        self.assertEqual(4, countConsonants(keyword))
 
 if __name__ == '__main__':
     unittest.main()
