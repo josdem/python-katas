@@ -1,5 +1,4 @@
 import unittest
-import unittest
 
 '''
 Given an integer collection, return an array with three elements:
