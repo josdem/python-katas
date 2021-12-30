@@ -1,5 +1,4 @@
 import unittest
-from unittest.case import expectedFailure
 
 def compress(keyword):
     return keyword
