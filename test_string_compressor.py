@@ -8,7 +8,10 @@ Then we have a compressed string like "a3b4c2"
 '''
 
 def compress(keyword):
-    return keyword
+    result = ""
+    for k,v in itertools.groupby(keyword, lambda n: keyword.count(n)):
+        result = result + list(v)[0] + str(k)
+    return result
 
 class FixedTest(unittest.TestCase):
     def test(self):
