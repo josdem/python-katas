@@ -1,11 +1,9 @@
 import unittest
+from collection_adder import *
 
 '''
 Given an integer collection return a sum of its elements
 '''
-
-def adder(numbers):
-    return sum(numbers)  
 
 class FixedTest(unittest.TestCase):
 
