@@ -1,5 +1,5 @@
 import unittest
-from common_elements import *
+from python.common_elements import *
 
 '''
 I have two arrays with integers. I want to return elements in common.
