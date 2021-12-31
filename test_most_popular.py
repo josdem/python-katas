@@ -8,7 +8,7 @@ Write a function that finds most popular number in the array, in this case 34 be
 
 class FixedTest(unittest.TestCase):
     def test(self):
-        self.assertEqual(34, find([31 , 34, 56, 34, 12, 35, 24, 34, 69, 18]))
+        self.assertEqual(find([31 , 34, 56, 34, 12, 35, 24, 34, 69, 18]), 34)
 
 if __name__ == '__main__':
     unittest.main()
