@@ -8,7 +8,7 @@ When we have: [25, 25, 18, 18, 18, 36, 1, 2, 2, 34] first non-repeated number is
 
 class FixedTest(unittest.TestCase):
     def test(self):
-        self.assertEqual(36, find([25, 25, 18, 18, 18, 36, 1, 2, 2, 34]))
+        self.assertEqual(find([25, 25, 18, 18, 18, 36, 1, 2, 2, 34]), 36)
 
 if __name__ == '__main__':
     unittest.main()
