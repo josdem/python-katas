@@ -1,12 +1,10 @@
 import unittest
+from find_the_odd import *
 
 '''
 Given an array of integers, find the one that appears an odd number of times.
 There will always be only one integer that appears an odd number of times.
 '''
-
-def find_it(array):
-    return list(filter(lambda n: array.count(n) % 2, array))[0]
 
 class FixedTest(unittest.TestCase):
 
