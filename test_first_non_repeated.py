@@ -1,5 +1,5 @@
 import unittest
-from first_non_repeated import *
+from python.first_non_repeated import *
 
 '''
 Given a numbers collection find fist non-repeated number in that collection

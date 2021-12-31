@@ -1,5 +1,5 @@
 import unittest
-from biggest_price import *
+from python.biggest_price import *
 
 '''
 Messages with random data are coming! But we just care about prices!

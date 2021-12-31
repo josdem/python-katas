@@ -1,5 +1,5 @@
 import unittest
-from disem_vowel import *
+from python.disem_vowel import *
 
 '''
 Trolls are attacking your comment section!

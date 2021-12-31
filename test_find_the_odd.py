@@ -1,5 +1,5 @@
 import unittest
-from find_the_odd import *
+from python.find_the_odd import *
 
 '''
 Given an array of integers, find the one that appears an odd number of times.

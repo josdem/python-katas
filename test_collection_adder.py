@@ -1,5 +1,5 @@
 import unittest
-from collection_adder import *
+from python.collection_adder import *
 
 '''
 Given an integer collection return a sum of its elements

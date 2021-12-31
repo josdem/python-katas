@@ -1,5 +1,5 @@
 import unittest
-from credit_card_mask import *
+from python.credit_card_mask import *
 
 '''
 Usually when you buy something, you're asked whether your credit card number, phone number or answer to your most secret question is still correct.

@@ -1,5 +1,5 @@
 import unittest
-from counting_characters import *
+from python.counting_characters import *
 '''
  Counting vowels and consonants. Create two functions one for counting vowels and another for counting consonants
  Given: A string

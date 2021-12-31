@@ -1,5 +1,5 @@
 import unittest
-from counting_numbers import *
+from python.counting_numbers import *
 
 '''
 Given an integer collection, return an array with three elements:

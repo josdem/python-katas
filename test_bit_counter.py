@@ -1,5 +1,5 @@
 import unittest
-from bit_counter import *
+from python.bit_counter import *
 
 '''
 Write a function that takes an integer as input, and returns the number of bits that are equal to one in the binary representation of that number. 

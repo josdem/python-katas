@@ -1,5 +1,5 @@
 import unittest
-from string_compressor import *
+from python.string_compressor import *
 
 '''
 Given a string "aaabbbbcc"

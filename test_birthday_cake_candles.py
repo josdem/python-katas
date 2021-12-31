@@ -1,5 +1,5 @@
 import unittest
-from birthday_cake_candles import *
+from python.birthday_cake_candles import *
 
 '''
 It is your birthday! And you want to make it special, so you want to keep only biggest candles in the cake
