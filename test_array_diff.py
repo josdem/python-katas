@@ -1,5 +1,5 @@
 import unittest
-from array_diff import *
+from python.array_diff import *
 
 '''
 Your goal in this kata is to implement a difference function, which subtracts one list from another and returns the result.
