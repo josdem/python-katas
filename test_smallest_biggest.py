@@ -1,5 +1,6 @@
 import unittest
 from python.smallest_biggest import *
+
 '''
 Find smaller and biggest numbers in a collection
 Given: A collection like [7, 5, 2, 4, 3, 9]
