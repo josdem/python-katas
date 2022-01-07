@@ -1,2 +1,2 @@
 def counter(numbers):
-    return numbers
+    return [len([x for x in numbers if x > 0]), len([x for x in numbers if x < 0]), len([x for x in numbers if x == 0])]
