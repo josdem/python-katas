@@ -3,5 +3,5 @@ def compute(amount, keyboards, usbs):
     for k in keyboards:
         for u in usbs:
             pairs.append((k, u))
-    print(*pairs)        
-    return amount + len(keyboards) + len(usbs)
+    prices = [p[0] + p[1] for p in pairs]
+    return max([i for i in prices if i <= amount])
