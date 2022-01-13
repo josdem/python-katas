@@ -1,7 +1,5 @@
 import unittest
-
-def square(numbers):
-    return numbers
+from python.square_calculator import *
 
 class FixedTest(unittest.TestCase):
     def test(self):
