@@ -1,2 +1,2 @@
 def square(numbers):
-    return numbers
+    return [n * n for n in numbers]
