@@ -1,8 +1,12 @@
 import numbers
 import unittest
+from python.digital_adder import *
 
-def adder(numbers):
-    return numbers
+'''
+Given: A numeric collection
+When: I call add method
+Then: I will get a collection with every element summing its digits
+'''
 
 class FixedTest(unittest.TestCase):
     def test(self):
