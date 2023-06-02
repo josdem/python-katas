@@ -1,3 +1,2 @@
 def find(numbers):
-    return numbers
-
+    return [min(numbers), max(numbers)]
