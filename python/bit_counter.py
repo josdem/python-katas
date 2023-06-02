@@ -1,2 +1,2 @@
 def count_bits(n):
-    return n
+    return list(bin(n)).count('1')
