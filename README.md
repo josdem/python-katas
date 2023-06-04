@@ -1,6 +1,8 @@
 Python Katas
 ----------------------------
 
+[![GitHub](https://github.com/josdem/python-katas/actions/workflows/main.yml/badge.svg)](https://github.com/josdem/python-katas/actions)
+
 This project contains some fun [Python](https://www.python.org/) katas using [Unittest Testing Framework](https://docs.python.org/3/library/unittest.html).
 
 #### Requirements
