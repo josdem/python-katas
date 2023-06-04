@@ -21,4 +21,4 @@ jobs:
       - name: List files in the repository
         run: ls ${{ github.workspace }}
       - name: Execute tests
-        run: python -m unittest discover -p test*.py
+        run: python -m unittest discover . -p test*.py
