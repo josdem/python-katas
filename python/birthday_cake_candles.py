@@ -1,2 +1,2 @@
 def counter(candles):
-    return list(filter(lambda it: it == max(candles), candles))
+    return [n for n in candles if n == max(candles)]
